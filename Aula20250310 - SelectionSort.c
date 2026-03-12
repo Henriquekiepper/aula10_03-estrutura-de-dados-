@@ -74,7 +74,7 @@ void selectionSortInverso(int *v, int n){
                 maior = j;
             }
         }
-        // Troca o maior encontrado com a posição i (o final da parte não ordenada)
+        
         if(i != maior){
             troca = v[i];
             v[i] = v[maior];

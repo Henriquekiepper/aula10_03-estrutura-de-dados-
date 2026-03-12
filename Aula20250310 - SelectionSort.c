@@ -65,10 +65,8 @@ void ImprimeVetor(int *x, int n){
 
 void selectionSortInverso(int *v, int n){
     int i, j, maior, troca;
-    // Percorre do último índice até o segundo (0 é o que sobra)
     for(i = n - 1; i > 0; i--){
         maior = i; 
-        // Procura o maior elemento entre o índice 0 e i
         for(j = 0; j < i; j++ ){
             if(v[j] > v[maior]){
                 maior = j;
